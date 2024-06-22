@@ -18,8 +18,8 @@ const Sun = require("../../Assets/Images/Sun.png");
 
 const SignIn = () => {
   const [showPassword, setShowPassword] = useState(false);
-  const [email, setEmail] = useState("");
-  const [password, setPassword] = useState("");
+  const [email, setEmail] = useState("admin");
+  const [password, setPassword] = useState("admin123");
 
   const login = useGlobal((state) => state.login);
 
